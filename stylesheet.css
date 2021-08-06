@@ -1,0 +1,28 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inherit;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 40em;
+}
+
+.accordion__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion__details {
+    max-height: 0;
+    overflow: hidden;
+}
