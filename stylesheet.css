@@ -26,3 +26,14 @@ body {
     max-height: 0;
     overflow: hidden;
 }
+
+.accordion__expand {
+    /*max-height: auto;
+    overflow: auto;*/
+    background-color: blue;
+}
+
+.accordion__icon {
+    cursor: pointer;
+}
+
