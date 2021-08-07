@@ -28,29 +28,41 @@
                         Delete old accounts you no longer use.
                         Encrypt the data on your phone.
                         Turn off bluetooth when not in use.
+                        If you have important or sensitive files, keep them backed up in a separate server, and don't disclose the location to untrusted parties.
                     </p>
                 </div><!--close accordion details-->
             </div><!--accordion__item-->
             <div class="accordion__item">
                 <div class="accordion__heading">
-                    <p>Lorem Ipsum</p>
+                    <p>How can I monitor my home network for free?</p>
                     <span class="accordion__icon">+</span>
                 </div><!--accordion__heading-->
                 <div class="accordion__details">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quasi, repudiandae vitae laboriosam repellendus sit, autem distinctio odio maiores deleniti 
-                        natus inventore et recusandae sequi sapiente ducimus praesentium exercitationem aut beatae!</p>
+                    <p>You can download the PRTG Freeware at 
+                        <a href="https://www.paessler.com/manuals/prtg/introduction_monitoring_with_prtg">www.paessler.com</a>.  
+                        Be sure to change the default password immediately upon logging in.  By default, PRTG will run on port 80 for HTTP and port 433 for HTTPS, which can cause issues.  You 
+                    can change the port number in the PRTG administration tool.</p>
                 </div><!--close accordion details-->
             </div><!--accordion__item-->
             <div class="accordion__item">
                 <div class="accordion__heading">
-                    <p>Lorem Ipsum</p>
+                    <p>What can you tell me about the ransomware black market?</p>
                     <span class="accordion__icon">+</span>
                 </div><!--accordion__heading-->
                 <div class="accordion__details">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quasi, repudiandae vitae laboriosam repellendus sit, autem distinctio odio maiores deleniti 
-                        natus inventore et recusandae sequi sapiente ducimus praesentium exercitationem aut beatae!</p>
+                    <p>Ransomware is a huge market bringing in billions of dollars yearly to cyber criminals. In 2021, ransomware
+                        cost 20 billion internationally, and hit 37 percent of all businesses and organizations. 
+                        Read more at <a href="https://www.cloudwards.net/ransomware-statistics/">cloudwards.net</a>
+                    </br>
+                        The LockBit 2.0 ransomware (a notorious ransomware virus designed for use against organizations)
+                         is now trying to recruit corporate insiders to help them breach networks. 
+                        In return, the insider is promised millions of dollars.
+                    </br>
+                    Now you can purchase RaaS (Ransomware as a Service) developed by the sophisticated BlackMatter operation. 
+                    BlackMatter is believed to be a rebranding of the notorius DarkSide and REvil, which fell off the radar after the
+                    highly publicized Kaseya and Colonial Pipeline ransomware attacks. 
+                         Read more at <a href="https://cybersecdn.com/index.php/2021/08/06/the-week-in-ransomware-august-6th-2021/">cybersecdn.com</a>.</p>
+                         
                 </div><!--close accordion details-->
             </div><!--accordion__item-->
             <div class="accordion__item">
@@ -66,13 +78,36 @@
             </div><!--accordion__item-->
             <div class="accordion__item">
                 <div class="accordion__heading">
-                    <p>Lorem Ipsum</p>
+                    <p>For Developers: What are secure coding practices?</p>
                     <span class="accordion__icon">+</span>
                 </div><!--accordion__heading-->
                 <div class="accordion__details">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quasi, repudiandae vitae laboriosam repellendus sit, autem distinctio odio maiores deleniti 
-                        natus inventore et recusandae sequi sapiente ducimus praesentium exercitationem aut beatae!</p>
+                    <p>There are practices during the development phase of an application designed to minimize security vulnerabilites.
+                        The list could get quite long, so I'll include only a basic overview here.  You can find more info on
+                         <a href="https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf">www.owasp.org.</a></p>
+                        <ul>
+                            <li>Validate data from unstrusted sources (such as external databases)</li>
+                            <li>Validate all input against a 'safelist' of allowed characters</li>
+                            <li>Implement character escaping</li>
+                            <li>Contextually output encode data returned to the client that originated outside the applications' trust boundary</li>
+                            <li>Require authentication for all non-public pages</li>
+                            <li>Authentication failers should not indicate which part of the authentication was incorrect</li>
+                            <li>Use only HTTP POST requests to transmit authentication credentials</li>
+                            <li>Only send non-temporary passwords over an encrypted connection</li>
+                            <li>Enforce password length and multi-character requirements</li>
+                            <li>Enforce account disabling after an established number of login attempts</li>
+                            <li>Use multi-factor authentication for accounts with sensitive data</li>
+                            <li>Use the server or framework's session management controls only</li>
+                            <li>Establish session inactivity timeout that is as short as possible</li>
+                            <li>Session identifiers should only be located in the session cookie header</li>
+                            <li>Do not disclose sensitive information in error responses</li>
+                            <li>Error handlers should not display stack trace or debugging information</li>
+                            <li>Users should not be able to download server-side source code</li>
+                            <li>Avoid the use of known vulnerable functions</li>
+                            <li>Do not pass user-supplied data to any dynamic execution function</li>
+                            <li>Scan user uploaded files for viruses or malware</li>
+                            <li>Explicitly initialize all your variables and other data stores, either during declaration or just before the first usage</li>
+                        </ul>
                 </div><!--close accordion details-->
             </div><!--accordion__item-->
         </div><!--close accordion-->
