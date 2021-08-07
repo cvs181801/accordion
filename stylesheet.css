@@ -23,15 +23,15 @@ body {
 }
 
 .accordion__details {
-    max-height: 75vh;
-    overflow: visible;
-    background-color: lightsteelblue;
-}
-
-.accordion__shrink {
     max-height: 0;
     overflow: hidden;
+    
 }
+
+/*.accordion__shrink {
+    max-height: 0;
+    overflow: hidden;
+}*/
 
 .accordion__icon {
     cursor: pointer;
