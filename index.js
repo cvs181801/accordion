@@ -25,6 +25,8 @@ plusSigns.forEach((plus) => {
     for (let i=0; i < details.length; i++) {
         plusSigns[i].addEventListener('click', function(e) {
         console.log("the details e listener worked!");
-        details[i].style.backgroundColor = "pink";
+        //details[i].style.maxHeight = "75vh";
+        //details[i].style.overflow = "visible";
+        details[i].classList.remove = "accordion__shrink";
     })
 }

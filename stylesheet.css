@@ -23,14 +23,14 @@ body {
 }
 
 .accordion__details {
-    max-height: 0;
-    overflow: hidden;
+    max-height: 75vh;
+    overflow: visible;
+    background-color: lightsteelblue;
 }
 
-.accordion__expand {
-    /*max-height: auto;
-    overflow: auto;*/
-    background-color: blue;
+.accordion__shrink {
+    max-height: 0;
+    overflow: hidden;
 }
 
 .accordion__icon {
